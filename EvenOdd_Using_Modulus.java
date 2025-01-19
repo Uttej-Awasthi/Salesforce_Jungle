@@ -1,2 +1,16 @@
-package PACKAGE_NAME;public class EvenOdd_Using_Modulus {
+import java.util.Scanner;
+public class EvenOdd_Using_Modulus {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        if (num % 2 == 0) {
+            System.out.println(num + " is even.");
+        } else {
+            System.out.println(num + " is odd.");
+        }
+    }
+
 }
